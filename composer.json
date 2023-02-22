@@ -1,0 +1,22 @@
+{
+    "name": "ardiarcadia/ardimvc",
+    "description": "MVC API Simple",
+    "authors": [
+        {
+            "name": "ardiarcadia",
+            "email": "ardi.arcadia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    },
+    "require": {
+        "leafs/leaf": "^3.2",
+        "leafs/cors": "^1.1"
+    }
+}
