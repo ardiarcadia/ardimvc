@@ -2,9 +2,11 @@
 
 namespace App\Controllers;
 
+use App\Models\UserModel;
+
 class AuthController extends Controller{
 
-    public function index()
+    function index()
     {
         $this->app->response()->json([
             "message" => 'Hallo controllers Auth',
@@ -18,6 +20,18 @@ class AuthController extends Controller{
         $this->app->response()->json([
             "message" => 'success',
             "id" => $id
+        ], 200);
+    }
+
+    function get_form()
+    {
+        $dbM = new UserModel;
+        $dbM->connectDb();
+        $feedback = $dbM->index();
+
+        $this->app->response()->json([
+            "message" => 'success',
+            "data" => $feedback
         ], 200);
     }
 }

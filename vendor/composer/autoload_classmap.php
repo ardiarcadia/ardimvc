@@ -7,5 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Controllers\\AuthController' => $baseDir . '/app/controllers/AuthController.php',
+    'App\\Controllers\\Controller' => $baseDir . '/app/controllers/Controller.php',
+    'App\\Helpers\\Helper' => $baseDir . '/app/helpers/Helper.php',
+    'App\\Helpers\\ResponseJson' => $baseDir . '/app/helpers/ResponseJson.php',
+    'App\\Models\\Model' => $baseDir . '/app/models/Model.php',
+    'App\\Models\\UserModel' => $baseDir . '/app/models/UserModel.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

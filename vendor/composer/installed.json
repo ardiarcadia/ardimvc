@@ -63,6 +63,69 @@
             "install-path": "../leafs/anchor"
         },
         {
+            "name": "leafs/cookie",
+            "version": "v1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafsphp/cookie.git",
+                "reference": "ff286903558975fcf737aa989c9defa57873a18e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafsphp/cookie/zipball/ff286903558975fcf737aa989c9defa57873a18e",
+                "reference": "ff286903558975fcf737aa989c9defa57873a18e",
+                "shasum": ""
+            },
+            "time": "2022-10-16T21:00:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Leaf\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Darko",
+                    "email": "mickdd22@gmail.com",
+                    "homepage": "https://mychi.netlify.app",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Leaf PHP cookie module",
+            "homepage": "https://leafphp.netlify.app/#/",
+            "keywords": [
+                "cookies",
+                "framework",
+                "http",
+                "leaf",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/leafsphp/cookie/issues",
+                "source": "https://github.com/leafsphp/cookie/tree/v1.1.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/leafsphp",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/leaf",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../leafs/cookie"
+        },
+        {
             "name": "leafs/cors",
             "version": "v1.1.1",
             "version_normalized": "1.1.1.0",
@@ -125,6 +188,75 @@
                 }
             ],
             "install-path": "../leafs/cors"
+        },
+        {
+            "name": "leafs/db",
+            "version": "v2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafsphp/db.git",
+                "reference": "7fb2aa179c7021be47e60201ad06d70608a04761"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafsphp/db/zipball/7fb2aa179c7021be47e60201ad06d70608a04761",
+                "reference": "7fb2aa179c7021be47e60201ad06d70608a04761",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mysqli": "*"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.21"
+            },
+            "time": "2022-05-29T23:01:32+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Leaf\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Darko",
+                    "email": "mickdd22@gmail.com",
+                    "homepage": "https://mychi.netlify.app",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Leaf PHP db module.",
+            "homepage": "https://leafphp.netlify.app/#/",
+            "keywords": [
+                "database",
+                "framework",
+                "leaf",
+                "orm",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/leafsphp/db/issues",
+                "source": "https://github.com/leafsphp/db/tree/v2.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/leafsphp",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/leaf",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../leafs/db"
         },
         {
             "name": "leafs/exception",
@@ -408,6 +540,73 @@
                 }
             ],
             "install-path": "../leafs/router"
+        },
+        {
+            "name": "leafs/session",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafsphp/session.git",
+                "reference": "34ffdcac2d59ec721840f2e46d6fed3dccfe7e24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafsphp/session/zipball/34ffdcac2d59ec721840f2e46d6fed3dccfe7e24",
+                "reference": "34ffdcac2d59ec721840f2e46d6fed3dccfe7e24",
+                "shasum": ""
+            },
+            "require": {
+                "leafs/anchor": "^1.2.1"
+            },
+            "time": "2022-01-22T14:45:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Leaf\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Darko",
+                    "email": "mickdd22@gmail.com",
+                    "homepage": "https://mychi.netlify.app",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Leaf PHP session + flash modules",
+            "homepage": "https://leafphp.netlify.app/#/",
+            "keywords": [
+                "flash",
+                "framework",
+                "http",
+                "leaf",
+                "php",
+                "session"
+            ],
+            "support": {
+                "issues": "https://github.com/leafsphp/session/issues",
+                "source": "https://github.com/leafsphp/session/tree/v1.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/leafsphp",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/leaf",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../leafs/session"
         },
         {
             "name": "psr/log",
