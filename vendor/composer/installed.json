@@ -63,69 +63,6 @@
             "install-path": "../leafs/anchor"
         },
         {
-            "name": "leafs/cookie",
-            "version": "v1.1.1",
-            "version_normalized": "1.1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leafsphp/cookie.git",
-                "reference": "ff286903558975fcf737aa989c9defa57873a18e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leafsphp/cookie/zipball/ff286903558975fcf737aa989c9defa57873a18e",
-                "reference": "ff286903558975fcf737aa989c9defa57873a18e",
-                "shasum": ""
-            },
-            "time": "2022-10-16T21:00:05+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
-                "psr-4": {
-                    "Leaf\\Http\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Darko",
-                    "email": "mickdd22@gmail.com",
-                    "homepage": "https://mychi.netlify.app",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Leaf PHP cookie module",
-            "homepage": "https://leafphp.netlify.app/#/",
-            "keywords": [
-                "cookies",
-                "framework",
-                "http",
-                "leaf",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/leafsphp/cookie/issues",
-                "source": "https://github.com/leafsphp/cookie/tree/v1.1.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/leafsphp",
-                    "type": "github"
-                },
-                {
-                    "url": "https://opencollective.com/leaf",
-                    "type": "open_collective"
-                }
-            ],
-            "install-path": "../leafs/cookie"
-        },
-        {
             "name": "leafs/cors",
             "version": "v1.1.1",
             "version_normalized": "1.1.1.0",

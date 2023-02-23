@@ -8,7 +8,6 @@ class ComposerStaticInit6e0c5fe15e392ff999abfe8b00513b26
 {
     public static $files = array (
         'cfb7c780793bfa1138356bbe97dc66da' => __DIR__ . '/..' . '/leafs/http/src/functions.php',
-        '180b7da0070d071a196b2eb06348e080' => __DIR__ . '/..' . '/leafs/cookie/src/functions.php',
         '88eacf4349b66d3ee2fc2749fea922ce' => __DIR__ . '/..' . '/leafs/db/src/functions.php',
         'cd18aec96aea037961c7c777fe0159ab' => __DIR__ . '/..' . '/leafs/leaf/src/functions.php',
         'e408a977efcff868a334a05904a33d25' => __DIR__ . '/..' . '/leafs/session/src/functions.php',
@@ -37,9 +36,8 @@ class ComposerStaticInit6e0c5fe15e392ff999abfe8b00513b26
         ),
         'Leaf\\Http\\' => 
         array (
-            0 => __DIR__ . '/..' . '/leafs/cookie/src',
-            1 => __DIR__ . '/..' . '/leafs/cors/src',
-            2 => __DIR__ . '/..' . '/leafs/http/src',
+            0 => __DIR__ . '/..' . '/leafs/cors/src',
+            1 => __DIR__ . '/..' . '/leafs/http/src',
         ),
         'Leaf\\' => 
         array (
