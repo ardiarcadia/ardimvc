@@ -15,6 +15,6 @@ return function ($app) {
         $app->get("/show_form", "\App\Controllers\AuthController@get_form");
     });
 
-    $app->post("/single", "\App\Controllers\AuthController@index");
+    $app->post("/home", "\App\Controllers\AuthController@index");
 
 };
