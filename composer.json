@@ -19,6 +19,7 @@
         "leafs/leaf": "^3.2",
         "leafs/cors": "^1.1",
         "leafs/db": "^2.0",
-        "leafs/session": "^1.1"
+        "leafs/session": "^1.1",
+        "leafs/fetch": "^0.1.0"
     }
 }
